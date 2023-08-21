@@ -1,0 +1,137 @@
+.homeContent {
+    width: 50%;
+    padding-top: 1em;
+    padding-left: 9em;
+    margin: 0;
+    color: aliceblue;
+}
+
+.homeHead {
+    width: 80%;
+    margin-top: 0;
+}
+
+.headingPage {
+    font-family: 'Prata', serif;
+    font-size: 3.3em;
+    margin-bottom: 6%;
+    letter-spacing: 2px;
+}
+
+.paraPage {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+
+.buttonPage {
+    margin-top: 6%;
+    padding: 0.5em 2em;
+    background-color: #0c055c;
+    border: 2px white solid;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.buttonPage:hover {
+    background-color: white;
+    color: #0c055c;
+    font-weight: 700;
+}
+
+.homeRightPattern {
+    z-index: 4;
+    width: 24%;
+    position: absolute;
+    top: 11.6%;
+    left: 77%;
+}
+
+.homeLeftPattern {
+    z-index: 4;
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+
+@media (min-width: 1650px) {
+    .homeContent {
+        width: 45%;
+        padding-top: 6em;
+        padding-left: 13em;
+        margin: 0;
+        color: aliceblue;
+    }
+
+    .homeRightPattern {
+        width: 24%;
+        position: absolute;
+        top: 9.1%;
+        left: 77%;
+    }
+}
+
+@media (max-width: 400px) {
+    .homeContent {
+        width: 90%;
+        padding-top: 1em;
+        padding-left: 1.5em;
+        margin: 0;
+        color: aliceblue;
+        overflow-x: hidden;
+    }
+    
+    .homeHead {
+        width: 90%;
+        margin-top: 0;
+    }
+    
+    .headingPage {
+        font-family: 'Prata', serif;
+        font-size: 2.5em;
+        margin-bottom: 6%;
+        letter-spacing: 2px;
+    }
+    
+    .paraPage {
+        font-family: 'Pontano Sans', sans-serif;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    
+    .buttonPage {
+        margin-top: 6%;
+        padding: 0.4em 1em;
+        background-color: #0c055c;
+        border: 2px white solid;
+        color: white;
+        font-family: 'Pontano Sans', sans-serif;
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+    
+    .buttonPage:hover {
+        background-color: white;
+        color: #0c055c;
+        font-weight: 700;
+    }
+    
+    .homeRightPattern {
+        z-index: 4;
+        width: 44%;
+        position: absolute;
+        top: 8.1%;
+        left: 56%;
+    }
+    
+    .homeLeftPattern {
+        z-index: 4;
+        width: 36%;
+        position: absolute;
+        top: 55%;
+        left: 0;
+    }
+
+}

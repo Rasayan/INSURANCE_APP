@@ -1,0 +1,184 @@
+.aboutSection {
+    margin-top: 17%;
+    margin-left: 10%;
+}
+
+.aboutHeading {
+    font-family: 'Prata', serif;
+    font-size: 3.3em;
+    letter-spacing: 2px;
+}
+
+.aboutQuality {
+    margin-left: -2%;
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.qualities {
+    width: 25%;
+}
+
+.qualities:last-child {
+    margin-top: -1.9%;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Prata', serif;
+    letter-spacing: 1px;
+}
+
+.aboutPara {
+    width: 82%;
+    font-family: 'Pontano Sans', sans-serif;
+    color: gray;
+}
+
+.moreSection {
+    margin-left: 6%;
+    margin-top: 7%;
+    padding: 3em 2em;
+    border: 2px black solid;
+    background-color: #0c055c;
+    width: 70%;
+}
+
+.more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moreHead {
+    width: 40%;
+    font-family: 'Prata', serif;
+    color: aliceblue;
+    font-size: 2em;
+}
+
+.moreButton {
+    z-index: 99;
+    padding: 1.5em 2em;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 700;
+    background: transparent;
+    border: 2px white solid;
+    color: aliceblue;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.moreButton:hover {
+    background-color: white;
+    color: #0c055c;
+    font-weight: 700;
+}
+
+.howWeWorkPattern {
+    width: 28%;
+    left: 55%;
+    position: absolute;
+}
+    
+.howWeWorkMobile {
+    display: none;
+}
+
+
+
+@media (min-width: 1650px) {
+    .howWeWorkPattern {
+        width: 22.5%;
+        left: 59.5%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutSection {
+        margin-top: 70%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aboutHeading {
+        margin-left: -9%;
+        font-family: 'Prata', serif;
+        font-size: 3.3em;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    .aboutQuality {
+        margin-left: -6%;
+        width: 99%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .qualities {
+        margin-top: 2em;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .qualities:last-child {
+        margin-top: -1.9%;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        font-family: 'Prata', serif;
+        letter-spacing: 1px;
+    }
+    
+    .aboutPara {
+        width: 82%;
+        text-align: center;
+        font-family: 'Pontano Sans', sans-serif;
+        color: gray;
+    }
+    
+    .moreSection {
+        margin-left: -10%;
+        margin-top: 7%;
+        padding: 3em 2em;
+        border: 2px black solid;
+        background-color: #0c055c;
+        width: 80%;
+    }
+    
+    .more {
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+    }
+    
+    .moreHead {
+        width: 100%;
+        font-family: 'Prata', serif;
+        color: aliceblue;
+        font-size: 1.6em;
+    }
+    
+    .howWeWorkPattern {
+        display: none;
+    }
+
+    .howWeWorkMobile {
+        display: block;
+        position: absolute;
+        width: 38.5%;
+        left: 50%;
+    }
+}
